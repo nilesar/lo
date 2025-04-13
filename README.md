@@ -34,7 +34,7 @@ portfolio/ │ ├── app.py # Main Flask app script ├── requirements.t
 1. **Clone this repository**
 
 ```bash
-git clone https://github.com/nilesar/portfolio.git
+git clone https://github.com/nilesar/lo.git
 cd portfolio
 pip install -r requirements.txt
 python app.py
