@@ -1,0 +1,76 @@
+{% extends 'base.html' %}
+{% block title %}About Me{% endblock %}
+{% block content %}
+
+<!-- Add the CSS link here -->
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style1.css') }}">
+
+<div class="about-container">
+    <h1>About Me</h1>
+    <p class="intro">This is my journey.</p>
+
+    <p class="bio">
+        I am <strong>Nilendu Adhikary</strong>, currently a sophomore at <strong>IIT (BHU) Varanasi</strong> in the Department of Computer Science and Engineering, pursuing my bachelor's degree.
+    </p>
+
+    <p class="bio">
+        Before joining IIT (BHU), I completed my Higher Secondary School (WBHSE) with a score of 93.2%, and my Secondary School (WBBSE) with a score of 95%.
+    </p>
+
+    <p class="bio">
+        My academic journey and experiences have ignited my passion for technology and problem-solving. I am particularly interested in exploring areas like data structures, algorithms, artificial intelligence, and computer vision.
+    </p>
+
+    <p class="bio">
+        If you'd like to know more about my academic and professional background, feel free to <a href="{{ url_for('static', filename='files/cv.pdf') }}" download>download my CV</a>.
+    </p>
+    <p></p>
+
+    <hr>
+
+    <h2>Education</h2>
+    <ul class="education-list">
+        <li><strong>IIT (BHU) Varanasi</strong> — IDD (B.Tech + M.Tech) in Computer Science and Engineering (Aug 2023 – Present)<br>Current GPA: 8.6/10.0</li>
+        <li><strong>WBBSE</strong> — Secondary School (2015–2021)<br>Score: 95%</li>
+        <li><strong>WBHSE</strong> — Senior Secondary School (2021–2023)<br>Score: 93.2%</li>
+    </ul>
+
+    <h2>Coursework</h2>
+    <ul class="coursework-list">
+        <li>Data Structures</li>
+        <li>Algorithms</li>
+        <li>Operating Systems</li>
+        <li>Artificial Intelligence</li>
+        <li>Computer System Organization</li>
+        <li>IT Workshop I (Bash, Python)</li>
+        <li>IT Workshop II (Django, SQL)</li>
+        <li>Probability & Statistics</li>
+        <li>Discrete Mathematics</li>
+    </ul>
+
+    <h2>Skills</h2>
+    <ul class="skills-list">
+        <li><strong>Languages:</strong> C/C++, Python, Dart, JavaScript, LaTeX</li>
+        <li><strong>Tools:</strong> Git/GitHub, Unix Shell, VS Code, Cursor AI</li>
+        <li><strong>Frameworks:</strong> ReactJS, NodeJS, Flutter, Flask, MongoDB, Firebase, Django</li>
+    </ul>
+
+    <h2>Positions of Responsibility</h2>
+    <ul class="positions-list">
+        <li><strong>Jagriti '25</strong> — Ex-Core Member, Content Team (Sep 2024 – Mar 2025)<br>Prepared reports, brochures, and all necessary content for Jagriti '25.</li>
+        <li><strong>Codefest '25</strong> — Executive, Marketing Team (Sep 2024 – Feb 2025)<br>Assisted in raising sponsorships for the departmental fest through targeted marketing efforts.</li>
+    </ul>
+
+    <h2>Achievements</h2>
+    <h3>Academic Achievements</h3>
+    <ul class="achievements-list">
+        <li>Achieved All India Rank 3321 in JEE Main 2023 among 1.2 million candidates.</li>
+        <li>Secured All India Rank 252 in WBJEE 2023 among over 100,000 candidates.</li>
+        <li>Qualified the IISER Aptitude Test (IAT) conducted by IISER Mohali.</li>
+        <li>Earned All India Rank 62 in NEST 2023 (SX Stream) among more than 30,000 applicants.</li>
+    </ul>
+
+
+</div>
+
+{% endblock %}

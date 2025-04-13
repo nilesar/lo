@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+{% block title %}Contact Me{% endblock %}
+{% block content %}
+
+<!-- Include the stylesheet -->
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style2.css') }}">
+
+<h1>Contact Me</h1>
+
+<div class="contact-links">
+    <p>Feel free to connect with me on the following platforms:</p>
+
+    <div class="icon-links">
+        <a href="https://github.com/nilesar" target="_blank" title="GitHub"><i class="fab fa-github"></i> GitHub</a>
+        <a href="https://www.linkedin.com/in/nilendu-adhikary-47a10227b/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i> LinkedIn</a>
+        <a href="mailto:nilendu.adhikary.cd.cse23@iitbhu.ac.in" target="_blank" title="Email"><i class="fas fa-envelope"></i> Email Me</a>
+        
+    </div>
+</div>
+
+{% endblock %}

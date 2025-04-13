@@ -1,0 +1,62 @@
+{% extends 'base.html' %}
+{% block title %}Projects{% endblock %}
+{% block content %}
+
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style1.css') }}">
+
+<div class="projects-container">
+    <h1>Projects</h1>
+
+    <div class="project">
+        <h2>🧒 Kids Magazine Android App <span class="duration">(Jan 2025 – Present)</span></h2>
+        <ul>
+            <li>Developed a multilingual learning application for children to learn native scripts interactively.</li>
+            <li>Integrated Hindi transliteration, Bengali TTS (Coqui), and Hindi TTS (gTTS) within a Flutter interface.</li>
+            <li><strong><a href="https://play.google.com/store/apps/details?id=com.irlab.kids_magazine&pcampaignid=web_share" target="_blank">Available on Google Play Store</a></strong></li>
+            <li><strong>Skills:</strong> Flutter, Python, Dart, PyTorch, Flask, Firebase</li>
+        </ul>
+        <p class="supervisor"><em>Supervised by Prof. Sukomal Pal</em></p>
+    </div>
+
+    <div class="project">
+        <h2>🌐 Django Social Media Application <span class="duration">(Sep 2024 – Dec 2024)</span></h2>
+        <ul>
+            <li>Created a fully functional social media platform with post, like, and friend request features.</li>
+            <li>Built a responsive, user-friendly interface using Django templating and Web Sockets.</li>
+            <li><strong>Skills:</strong> Django, Python, Web Sockets, HTML/CSS, VS Code</li>
+        </ul>
+        <p class="supervisor"><em>Supervised by Prof. Amrita Chaturvedi</em></p>
+    </div>
+
+    <div class="project">
+        <h2>📚 Deep Learning in Animal Pose Estimation <span class="duration">(Sep 2024 – Dec 2024)</span></h2>
+        <ul>
+            <li>Performed a comprehensive literature survey on frameworks like DeepLabCut, OpenPose, and SLEAP.</li>
+            <li>Highlighted key challenges and proposed research directions in vision-based animal behavior analysis.</li>
+            <li><strong>Skills:</strong> Python, Deep Learning, OpenCV, LaTeX, Research Methodology</li>
+        </ul>
+        <p class="supervisor"><em>Supervised by Prof. S. K. Singh</em></p>
+    </div>
+
+    <div class="project">
+        <h2>🛒 E-commerce Website</h2>
+        <ul>
+            <li>Developed a full-stack e-commerce solution with product listings, secure checkout, and inventory updates.</li>
+            <li>Implemented advanced search, multiple payment integrations, and optimized backend performance.</li>
+            <li><strong>Skills:</strong> NodeJS, ReactJS, Express, MongoDB, Web Sockets, JavaScript, REST APIs</li>
+        </ul>
+    </div>
+
+    <div class="project">
+        <h2>📈 Flask + MySQL Trading Website</h2>
+        <ul>
+            <li>Built a complete trading platform with live stock data, indicators, and email alerts.</li>
+            <li>Supported auto and manual trading, watchlists, and system logging for user activity.</li>
+            <li><strong>Skills:</strong> Flask, Python, MySQL, HTML/CSS, JavaScript, Trading APIs</li>
+        </ul>
+    </div>
+
+   
+</div>
+
+{% endblock %}
